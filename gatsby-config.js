@@ -18,6 +18,13 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: "gatsby-remark-embed-youtube",
+      options: {　// 固定サイズにする場合に指定
+        width: 800,
+        height: 400
+      }
+    },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],

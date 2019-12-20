@@ -1,24 +1,31 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import pic02 from '../images/shirotokamojinashi.png'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-            <span className="icon fa-diamond"></span>
+        <img src={pic02} alt="" />
         </div>
         <div className="content">
             <div className="inner">
-                <h1>Dimension</h1>
-                <p>A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />
-                for free under the <a href="https://html5up.net/license">Creative Commons</a> license.</p>
+                <h1>Cancaonova Chorus Next 1.0</h1>
+                <h2>2020.3.15(sun) 13:00-16:30(open 12:00)</h2>
+                <p>1st Session 13:00-14:00</p>
+                <p>2nd Session 14:00-15:30</p>
+                <p>3rd Session 15:30-16:30</p>
+                <h2>design creative center KOBE KIITO</h2>
             </div>
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('intro')}}>Intro</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('work')}}>Work</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('concept')}}>CONCEPT</a></li>
+                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('stage')}}>Stage</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('contact')}}>Contact</a></li>
+                <li><a href="">Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
             </ul>
         </nav>
     </header>
