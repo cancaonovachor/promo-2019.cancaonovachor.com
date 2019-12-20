@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Dimension V2",
-    author: "Hunter Chang",
-    description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
+    title: "CancaoNova Chorus Next 1.0 PromotionSite",
+    author: "Yudai Homma",
+    description: "CancaoNova Chorus Next 1.0 PromotionSite"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -17,13 +17,6 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
-    },
-    {
-      resolve: "gatsby-remark-embed-youtube",
-      options: {　// 固定サイズにする場合に指定
-        width: 800,
-        height: 400
-      }
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
