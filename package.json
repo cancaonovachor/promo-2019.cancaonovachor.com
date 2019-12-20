@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "cancaonova-chorus-next1.0",
+  "description": "CN-Next-1.0 promotionpage",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Yudai Homma",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
