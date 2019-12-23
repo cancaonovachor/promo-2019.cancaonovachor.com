@@ -35,7 +35,10 @@ class Main extends React.Component {
             </div>
           <p>テクノロジーの力で、次世代の合唱の形を提案する演奏会を開催します。</p>
           <p>Live配信やデジタルアートと合唱の融合など、新しい演奏会のスタイルで挑戦します。</p>
-          <p>ステージ情報は<a href="#stage">こちら</a>から
+          <p>ステージ情報は <a href="javascript:;" onClick={async () => {
+            await this.props.onCloseArticle();
+            this.props.onOpenArticle('stage');
+            }}>こちら</a> から
           </p>
           {close}
         </article>

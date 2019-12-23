@@ -25,7 +25,7 @@ const Header = (props) => (
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('concept')}}>CONCEPT</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('stage')}}>Stage</a></li>
                 <li><a href="javascript:;" onClick={() => {props.onOpenArticle('about')}}>About</a></li>
-                <li><a href="">Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
+                <li><a href="https://t.livepocket.jp/e/7anr0" target="_blank">Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
             </ul>
         </nav>
     </header>
