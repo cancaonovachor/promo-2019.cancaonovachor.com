@@ -64,9 +64,9 @@ class Main extends React.Component {
             <img src={ichiji} alt="" />
           </span>
           <h3>2nd Session: Co-Creation</h3>
-          <p>Cooperate with ゆげ珈琲店、ICHIJI、and Special Guests!!!
+          <p>Cooperate with ゆげ焙煎所、ICHIJI、and Special Guests!!!
             私たちの活動をより深く知って頂くための団員と観客のみなさんとのコミュニケーションセッションです。
-            西宮の珈琲店のゆげ珈琲店さんと芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
+            西宮の珈琲店のゆげ焙煎所さんと芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
             全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあるかも？！
             それが“無料”で聞けちゃうんです！乞うご期待！
           </p>
