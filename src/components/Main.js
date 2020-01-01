@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/cn_cloudfund.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import ichiji from '../images/ichiji_edit.jpg'
+import zentai from '../images/zentai.jpg'
+import kiito_senzai from '../images/kiito_senzai_edit.jpg'
+import access from '../images/access.jpg'
 
 class Main extends React.Component {
   render() {
@@ -51,48 +52,47 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Stage</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
+          <span className="image-main main">
+            <img src={zentai} alt="" />
           </span>
           <h3>1st Session: Contest Selection</h3>
           <p>全日本合唱コンクール・東京国際合唱コンクール・声楽アンサンブルコンテスト…etc　
             私たちの軌跡をなぞるように今までコンクールで演奏した曲目を厳選して演奏します
             Pseudo-Yoik NT(J. Mantyjarvi), Ave Maria(F. Biebl), Laudate Dominum(L. Gyongyosi) ほか
-            </p>
-            <h3>2nd Session: Co-Creation</h3>
-            <p>Cooperate with ゆげ珈琲店、ICHIJI、and Special Guests!!!
-              私たちの活動をより深く知って頂くための団員と観客のみなさんとのコミュニケーションセッションです。
-              西宮の珈琲店のゆげ珈琲店さんと芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
-              全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあるかも？！
-              それが“無料”で聞けちゃうんです！乞うご期待！</p>
-              <h3>3rd Session: Chorus × NewMusic</h3>
-              <p>デジタルアート×合唱、ポップミュージック×合唱…。
-                電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
-                今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
-                <p>※入場時間…2nd session中入場自由</p>
+          </p>
+          <span className="image-main main">
+            <img src={ichiji} alt="" />
+          </span>
+          <h3>2nd Session: Co-Creation</h3>
+          <p>Cooperate with ゆげ珈琲店、ICHIJI、and Special Guests!!!
+            私たちの活動をより深く知って頂くための団員と観客のみなさんとのコミュニケーションセッションです。
+            西宮の珈琲店のゆげ珈琲店さんと芦屋のチョコレート屋さんのICHIJIさんにもご協力頂来ました！
+            全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあるかも？！
+            それが“無料”で聞けちゃうんです！乞うご期待！
+          </p>
+          <span className="image-main main">
+            <img src={kiito_senzai} alt="" />
+          </span>
+          <h3>3rd Session: Chorus × NewMusic</h3>
+          <p>デジタルアート×合唱、ポップミュージック×合唱…。
+            電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
+            今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
+          <p>※入場時間…2nd session中入場自由
+          </p>
           {close}
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="access"
+          className={`${this.props.article === 'access' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
+          <h2 className="major">Access</h2>
+          <span className="image-main main">
+            <img src={access} alt="" />
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
           {close}
         </article>
 
