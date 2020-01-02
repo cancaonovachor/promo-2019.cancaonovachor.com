@@ -8,7 +8,7 @@ import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 const Header = (props) => (
     <header id="header" style={props.timeout ? {display: 'none'} : {}}>
         <div className="logo">
-        <img src={pic02} alt="" />
+        <a href="https://cancaonovachor.com/"><img src={pic02} alt="" /></a>
         </div>
         <div className="content">
             <div className="inner">
@@ -22,10 +22,10 @@ const Header = (props) => (
         </div>
         <nav>
             <ul>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('concept')}}>CONCEPT</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('stage')}}>Stage</a></li>
-                <li><a href="javascript:;" onClick={() => {props.onOpenArticle('access')}}>Access</a></li>
-                <li><a href="https://t.livepocket.jp/e/7anr0" target="_blank">Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
+                <li><a className="use-border" href="javascript:;" onClick={() => {props.onOpenArticle('concept')}}>CONCEPT</a></li>
+                <li><a className="use-border" href="javascript:;" onClick={() => {props.onOpenArticle('stage')}}>Stage</a></li>
+                <li><a className="use-border" href="javascript:;" onClick={() => {props.onOpenArticle('access')}}>Access</a></li>
+                <li><a className="use-border" href="https://t.livepocket.jp/e/7anr0" target="_blank">Ticket <FontAwesomeIcon icon={faExternalLinkAlt} /></a></li>
             </ul>
         </nav>
     </header>

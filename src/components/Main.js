@@ -34,9 +34,10 @@ class Main extends React.Component {
               <iframe width="560" height="315" src="https://www.youtube.com/embed/TMVrcz3AG7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
               </iframe>
             </div>
+          <p><a className="use-border" href="https://cancaonovachor.com/">カンサォン・ノーヴァ</a>創団以来初となるコンサート。</p>
           <p>テクノロジーの力で、次世代の合唱の形を提案する演奏会を開催します。</p>
           <p>Live配信やデジタルアートと合唱の融合など、新しい演奏会のスタイルで挑戦します。</p>
-          <p>ステージ情報は <a href="javascript:;" onClick={async () => {
+          <p>ステージ情報は <a className="use-border" href="javascript:;" onClick={async () => {
             await this.props.onCloseArticle();
             this.props.onOpenArticle('stage');
             }}>こちら</a> から

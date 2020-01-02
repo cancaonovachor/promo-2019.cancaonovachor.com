@@ -31,7 +31,8 @@
 	}
 
 	a {
-		@include vendor('transition', (
+		&.use-border{
+			@include vendor('transition', (
 			'color #{_duration(transition)} ease-in-out',
 			'background-color #{_duration(transition)} ease-in-out',
 			'border-bottom-color #{_duration(transition)} ease-in-out'
@@ -39,6 +40,7 @@
 		border-bottom: dotted 1px _palette(fg-light);
 		text-decoration: none;
 		color: inherit;
+		}
 
 		&:hover {
 			border-bottom-color: transparent;
