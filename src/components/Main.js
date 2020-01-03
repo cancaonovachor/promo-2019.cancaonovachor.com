@@ -59,8 +59,14 @@ class Main extends React.Component {
           <h3>1st Session: Contest Selection</h3>
           <p>全日本合唱コンクール・東京国際合唱コンクール・声楽アンサンブルコンテスト…etc　
             私たちの軌跡をなぞるように今までコンクールで演奏した曲目を厳選して演奏します
-            Pseudo-Yoik NT(J. Mantyjarvi), Ave Maria(F. Biebl), Laudate Dominum(L. Gyongyosi) ほか
           </p>
+          <p>料金：2,000円
+          <br></br>時間：13:00〜</p>
+          <p>演奏予定曲：
+          <br></br>・Laudate Dominum (GYONGYOSI, Levente)
+          <br></br>・Pseudo Yoik (Mäntyjärvi, Jaakko)
+          <br></br>・Ave Maria (BIEBL, Franz)
+          <br></br>etc...</p>
           <span className="image-main main">
             <img src={ichiji} alt="" />
           </span>
@@ -71,6 +77,12 @@ class Main extends React.Component {
             全国各地からあの合唱団からこの人まで!??なゲストもお迎えしますよ♪アトリウム演奏もあるかも？！
             それが“無料”で聞けちゃうんです！乞うご期待！
           </p>
+          <p>料金：無料(入場には1stまたは3rd sessionの入場券が必要です。)
+          <br></br>時間： 14:00〜</p>
+          <p>協賛 (敬称略)：
+          <br></br>・ICHIJI
+          <br></br>・ゆげ焙煎所
+          <br></br>ほか、各地合唱団</p>
           <span className="image-main main">
             <img src={kiito_senzai} alt="" />
           </span>
@@ -78,7 +90,13 @@ class Main extends React.Component {
           <p>デジタルアート×合唱、ポップミュージック×合唱…。
             電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
             今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
-          <p>※入場時間…2nd session中入場自由
+          <p>料金：2,000円
+          <br></br>時間： 15:30〜</p>
+          <p> 演奏予定曲：
+          <br></br>・The Alphabet (GYORGY, Ligeti)
+          <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
+          <br></br>・Kalkadunga Yurdu (BARTON, William)
+          <br></br>etc...
           </p>
           {close}
         </article>
