@@ -78,7 +78,7 @@ class Main extends React.Component {
             それが“無料”で聞けちゃうんです！乞うご期待！
           </p>
           <p>料金：無料(入場には1stまたは3rd sessionの入場券が必要です。)
-          <br></br>時間： 14:00〜</p>
+          <br></br>時間： 現在調整中</p>
           <p>協賛 (敬称略)：
           <br></br>・ICHIJI
           <br></br>・ゆげ焙煎所
@@ -91,7 +91,7 @@ class Main extends React.Component {
             電子楽器やデジタルアートなどと合唱のコラボレーションセッションです。
             今までにない「合唱の新しい形」創り上げます。様々な演出を取り入れた演奏となります。今まで経験したことのない合唱の“Next”へ導きます。</p>
           <p>料金：2,000円
-          <br></br>時間： 15:30〜</p>
+          <br></br>時間： 現在調整中</p>
           <p> 演奏予定曲：
           <br></br>・The Alphabet (GYORGY, Ligeti)
           <br></br>・Digital Poliphony (下薗大樹, 全曲初演)
